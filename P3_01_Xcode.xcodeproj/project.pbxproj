@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7741192458219B00D8BF51 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7741182458219A00D8BF51 /* Character.swift */; };
+		DB77411B245821E300D8BF51 /* Elf.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77411A245821E300D8BF51 /* Elf.swift */; };
+		DB774125245821FC00D8BF51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77411C245821FC00D8BF51 /* Player.swift */; };
+		DB774126245821FC00D8BF51 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77411D245821FC00D8BF51 /* main.swift */; };
+		DB774127245821FC00D8BF51 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77411E245821FC00D8BF51 /* Game.swift */; };
+		DB774128245821FC00D8BF51 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB77411F245821FC00D8BF51 /* Knight.swift */; };
+		DB774129245821FC00D8BF51 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB774120245821FC00D8BF51 /* Warrior.swift */; };
+		DB77412A245821FC00D8BF51 /* Weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB774121245821FC00D8BF51 /* Weapons.swift */; };
+		DB77412B245821FC00D8BF51 /* Peasant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB774122245821FC00D8BF51 /* Peasant.swift */; };
+		DB77412C245821FC00D8BF51 /* Mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB774123245821FC00D8BF51 /* Mage.swift */; };
+		DB77412D245821FC00D8BF51 /* Fighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB774124245821FC00D8BF51 /* Fighter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB6275AF244AFC8E00521B35 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB6275B1244AFC8E00521B35 /* projet 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "projet 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7741182458219A00D8BF51 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = P3_02_architecture/Character.swift; sourceTree = SOURCE_ROOT; };
+		DB77411A245821E300D8BF51 /* Elf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Elf.swift; path = P3_02_architecture/Elf.swift; sourceTree = SOURCE_ROOT; };
+		DB77411C245821FC00D8BF51 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = P3_02_architecture/Player.swift; sourceTree = SOURCE_ROOT; };
+		DB77411D245821FC00D8BF51 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = P3_02_architecture/main.swift; sourceTree = SOURCE_ROOT; };
+		DB77411E245821FC00D8BF51 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = P3_02_architecture/Game.swift; sourceTree = SOURCE_ROOT; };
+		DB77411F245821FC00D8BF51 /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Knight.swift; path = P3_02_architecture/Knight.swift; sourceTree = SOURCE_ROOT; };
+		DB774120245821FC00D8BF51 /* Warrior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Warrior.swift; path = P3_02_architecture/Warrior.swift; sourceTree = SOURCE_ROOT; };
+		DB774121245821FC00D8BF51 /* Weapons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Weapons.swift; path = P3_02_architecture/Weapons.swift; sourceTree = SOURCE_ROOT; };
+		DB774122245821FC00D8BF51 /* Peasant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Peasant.swift; path = P3_02_architecture/Peasant.swift; sourceTree = SOURCE_ROOT; };
+		DB774123245821FC00D8BF51 /* Mage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mage.swift; path = P3_02_architecture/Mage.swift; sourceTree = SOURCE_ROOT; };
+		DB774124245821FC00D8BF51 /* Fighter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fighter.swift; path = P3_02_architecture/Fighter.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6275AE244AFC8E00521B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6275A8244AFC8E00521B35 = {
+			isa = PBXGroup;
+			children = (
+				DB6275B3244AFC8E00521B35 /* projet 3 */,
+				DB6275B2244AFC8E00521B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6275B2244AFC8E00521B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6275B1244AFC8E00521B35 /* projet 3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6275B3244AFC8E00521B35 /* projet 3 */ = {
+			isa = PBXGroup;
+			children = (
+				DB77411D245821FC00D8BF51 /* main.swift */,
+				DB77411E245821FC00D8BF51 /* Game.swift */,
+				DB77411C245821FC00D8BF51 /* Player.swift */,
+				DB7741182458219A00D8BF51 /* Character.swift */,
+				DB774124245821FC00D8BF51 /* Fighter.swift */,
+				DB77411F245821FC00D8BF51 /* Knight.swift */,
+				DB774123245821FC00D8BF51 /* Mage.swift */,
+				DB774122245821FC00D8BF51 /* Peasant.swift */,
+				DB774120245821FC00D8BF51 /* Warrior.swift */,
+				DB77411A245821E300D8BF51 /* Elf.swift */,
+				DB774121245821FC00D8BF51 /* Weapons.swift */,
+			);
+			path = "projet 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6275B0244AFC8E00521B35 /* projet 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6275B8244AFC8E00521B35 /* Build configuration list for PBXNativeTarget "projet 3" */;
+			buildPhases = (
+				DB6275AD244AFC8E00521B35 /* Sources */,
+				DB6275AE244AFC8E00521B35 /* Frameworks */,
+				DB6275AF244AFC8E00521B35 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "projet 3";
+			productName = "projet 3";
+			productReference = DB6275B1244AFC8E00521B35 /* projet 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6275A9244AFC8E00521B35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = vaillant;
+				TargetAttributes = {
+					DB6275B0244AFC8E00521B35 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DB6275AC244AFC8E00521B35 /* Build configuration list for PBXProject "P3_01_Xcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB6275A8244AFC8E00521B35;
+			productRefGroup = DB6275B2244AFC8E00521B35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6275B0244AFC8E00521B35 /* projet 3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6275AD244AFC8E00521B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB774129245821FC00D8BF51 /* Warrior.swift in Sources */,
+				DB774127245821FC00D8BF51 /* Game.swift in Sources */,
+				DB77412B245821FC00D8BF51 /* Peasant.swift in Sources */,
+				DB77411B245821E300D8BF51 /* Elf.swift in Sources */,
+				DB7741192458219B00D8BF51 /* Character.swift in Sources */,
+				DB774125245821FC00D8BF51 /* Player.swift in Sources */,
+				DB774126245821FC00D8BF51 /* main.swift in Sources */,
+				DB774128245821FC00D8BF51 /* Knight.swift in Sources */,
+				DB77412C245821FC00D8BF51 /* Mage.swift in Sources */,
+				DB77412D245821FC00D8BF51 /* Fighter.swift in Sources */,
+				DB77412A245821FC00D8BF51 /* Weapons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB6275B6244AFC8E00521B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB6275B7244AFC8E00521B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DB6275B9244AFC8E00521B35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DB6275BA244AFC8E00521B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6275AC244AFC8E00521B35 /* Build configuration list for PBXProject "P3_01_Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6275B6244AFC8E00521B35 /* Debug */,
+				DB6275B7244AFC8E00521B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6275B8244AFC8E00521B35 /* Build configuration list for PBXNativeTarget "projet 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6275B9244AFC8E00521B35 /* Debug */,
+				DB6275BA244AFC8E00521B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6275A9244AFC8E00521B35 /* Project object */;
+}
